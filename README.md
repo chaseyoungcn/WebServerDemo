@@ -21,7 +21,9 @@
 
 ### 用到的socketAPI:
 
-
+老套路:
+服务器: socket-> bind ->listen ->accpet-> sned/recv -> close
+客户端: socket-> connect- > send/recv ->close
 
 ### 代码详解:
 #### 封装socket操作
